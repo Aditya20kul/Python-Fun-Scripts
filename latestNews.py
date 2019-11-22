@@ -1,4 +1,15 @@
 # Get the latest News From NDTV
+
+############ Created By - Aditya Kulkarni ##############
+
+# Requirements for running the script ->
+# 		-> BeautifulSoup
+# 		-> Requests
+
+# For running the script -
+#		-> python latestNews.py
+
+# We can get the Big news as well as Top 10 news from www.ndtv.com
 from selenium import webdriver 
 import requests 
 from bs4 import BeautifulSoup 

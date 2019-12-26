@@ -22,6 +22,7 @@ contests = info[0].findAll('tr')
 if not contests:
     print('No live contests available.')
 else:
+	print("--------------------------------------------------------------")
     for c in contests:
         #print(c)
         c_info = c.findAll('td')

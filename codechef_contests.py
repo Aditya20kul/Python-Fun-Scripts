@@ -22,7 +22,7 @@ contests = info[0].findAll('tr')
 if not contests:
     print('No live contests available.')
 else:
-	print("--------------------------------------------------------------")
+    print("--------------------------------------------------------------")
     for c in contests:
         #print(c)
         c_info = c.findAll('td')
@@ -42,4 +42,4 @@ else:
             elif it==3:
                 print('End Date and Time - ' + str(ci.text)) 
             it+=1    
-        print("--------------------------------------------------------------")
+        print("--------------------------------------------------------------\n")

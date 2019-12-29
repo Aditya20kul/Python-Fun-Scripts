@@ -10,7 +10,6 @@
 #		-> python latestNews.py
 
 # We can get the Big news as well as Top 10 news from www.ndtv.com
-from selenium import webdriver 
 import requests 
 from bs4 import BeautifulSoup 
 import random 
